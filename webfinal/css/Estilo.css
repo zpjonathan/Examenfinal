@@ -1,0 +1,221 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #e0d9e0;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.banner {
+    background-image: url('banner-image.jpg');
+    background-size: cover;
+    color: #191717;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.cuadro {
+    border: 1px solid #e0bcdd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #e0bcdd;
+    text-align: center;
+}
+
+.cuadro-texto {
+    margin-top: 20px;
+}
+
+.productos {
+    text-align: center;
+}
+
+.producto {
+    display: inline-block;
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+}
+
+.producto img {
+    display: block;
+    margin: 0 auto;
+    width: 200px; /* Ancho deseado */
+    height: 200px; /* Alto deseado */
+    object-fit: cover; /* Ajusta la imagen para cubrir el contenedor manteniendo la relación de aspecto */
+    border-radius: 10px; /* Redondea las esquinas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Agrega sombra */
+}
+
+.producto h3 {
+    margin-top: 10px;
+}
+
+.producto p {
+    margin-top: 5px;
+}
+
+.testimonios {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */ /* Elimina o comenta esta línea para quitar la altura fija */
+}
+
+.testimonio {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 0 0 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagen-testimonio {
+    margin-bottom: 20px;
+}
+
+.imagen-testimonio img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.texto-testimonio {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    position: relative;
+}
+
+.carousel {
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%;
+}
+
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.prev {
+    left: -50px;
+}
+
+.next {
+    right: -50px;
+}
+
+.nombre-cliente {
+    font-weight: bold;
+    color: #777;
+}
+
+footer {
+    background-color:  #fff;
+    color: #a940c4;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.cuadro-redes,
+.cuadro-txt {
+    flex-basis: 45%;
+}
+
+.cuadro-redes h3,
+.cuadro-txt h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes a {
+    margin: 0 10px;
+}
+
+.redes img {
+    width: 40px;
+    height: 40px;
+}
+
+/* Estilos específicos para el cuadro del precio */
+.precio-cuadro {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
